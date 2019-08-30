@@ -1,4 +1,4 @@
-import React, {useState, useEffect, useRef, Fragment} from 'react';
+import React, {useState, useEffect, Fragment} from 'react';
 import { Route } from "react-router-dom";
 import './App.css';
 import EVLF_animation_2D from './EVLF_animation_2D.mp4';
@@ -11,16 +11,15 @@ import Navbar from './Navbar';
 
 function App() {
   const [bgColor, setBGColor] = useState('#ffbd2c');
-  const [goToHomePage, setGoToHomePage] = useState(false);
-  const vidRef = useRef();
+  const [goToHomePage, setGoToHomePage] = useState(true);
+
+  // useEffect(()=> {
+  //   setTimeout(() => setGoToHomePage(true), 7000)
+  // },[])
 
   const handleBgColor = (color) => {
     setBGColor(color)
   }
-
-  useEffect(()=> {
-    setTimeout(() => setGoToHomePage(true), 7000)
-  },[])
 
   return ( 
     <div className="App" style={{display: 'flex',  height: '100vh', width: '100vw'}}>

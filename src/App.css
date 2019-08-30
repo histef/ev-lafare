@@ -6,3 +6,7 @@
 h1 {
   font-family: 'Titillium Web', sans-serif;
 }
+
+.activeLink {
+  color: red;
+}
