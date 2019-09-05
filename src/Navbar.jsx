@@ -6,7 +6,8 @@ const navbarStyle= {
   textDecoration: 'none',
   color: 'black',
   fontFamily: 'Rock Salt',
-  fontSize: '.8rem'
+  fontSize: '1rem',
+  position: 'fixed',
 }
 
 const activeStyle = {
@@ -17,11 +18,11 @@ const activeStyle = {
 function Navbar() {
   return (
     <nav className="nav">
-      <ul style={{display: 'flex', paddingLeft: "0", width: '40%', justifyContent: 'space-between', listStyleType: 'none', textTransform: "uppercase", fontWeight: 'bold', color: 'black'}}>
-        <li><NavLink to='/' exact activeStyle={activeStyle} style={navbarStyle}>Home</NavLink></li>
-        <li><NavLink to='/about' activeStyle={activeStyle} style={navbarStyle} >About</NavLink></li>
-        <li><NavLink to='/books' activeStyle={activeStyle} style={navbarStyle}>Books</NavLink></li>
-        <li><NavLink to='/contact' activeStyle={activeStyle} style={navbarStyle}>Contact</NavLink></li>
+      <ul style={{display: 'flex', paddingLeft: '0', width: '55%', justifyContent: 'space-between', listStyleType: 'none', fontWeight: 'bold', color: 'black'}}>
+        <li><NavLink to='/' exact activeStyle={activeStyle} style={navbarStyle}>home</NavLink></li>
+        <li><NavLink to='/about' activeStyle={activeStyle} style={navbarStyle} >about</NavLink></li>
+        <li><NavLink to='/books' activeStyle={activeStyle} style={navbarStyle}>books</NavLink></li>
+        <li><NavLink to='/contact' activeStyle={activeStyle} style={navbarStyle}>contact</NavLink></li>
       </ul>
     </nav>
   );

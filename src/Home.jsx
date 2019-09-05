@@ -6,8 +6,8 @@ function Home(props) {
   },[])
 
   return (
-    <div className="Home">
-      <h1 style={{fontSize: '8rem', letterSpacing: "1rem"}}>EV LAFARE</h1>
+    <div className="about" style={{backgroundColor: '#ffbd2c', height: '100vh', display: 'flex'}}>
+      <h1 style={{fontSize: '6rem', letterSpacing: "1rem"}}>EV LAFARE</h1>
     </div>
   );
 }

@@ -6,7 +6,7 @@ function About(props) {
   },[])
   
   return (
-    <div className="about" style={{backgroundColor: '#8dce89', display: 'flex',  height: '100%'}}>
+    <div className="about" style={{backgroundColor: '#8dce89', display: 'flex',  height: '100vh'}}>
       <h1 style={{width: '30%', fontSize: '4rem', letterSpacing: ".4rem"}}>ABOUT</h1>
       <div style={{width: '60%', color: '#3e3e3e', alignSelf: 'center'}}>
         <p>Ev LaFare grew up in the suburbs of the south Midwest, where he spent his days writing poems, practicing Chopin etudes, and perfecting combos on Street Fighter II. After high school, LaFare took a leap of faith in his love for words, music, and tech, and headed west for Los Angeles.</p>

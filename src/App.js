@@ -22,20 +22,20 @@ function App() {
   }
 
   return ( 
-    <div className="App" style={{display: 'flex',  height: '100vh', width: '100vw'}}>
+    <div className="App" style={{display: 'flex'}}>
     {goToHomePage ?
       (<Fragment>
-        <main style={{width: '90%', backgroundColor: `${bgColor}`, paddingLeft: "30px"}}>
-        <Navbar />
-          <Route exact path='/' render={(props) => <Home handleBgColor={handleBgColor}/>} />
-          <Route exact path='/about' render={(props) => <About handleBgColor={handleBgColor}/>} />
-          <Route exact path='/books' render={(props) => <Books handleBgColor={handleBgColor}/>}  />
-          <Route exact path='/contact' render={(props) => <Contact handleBgColor={handleBgColor}/>}  />
+        <main style={{minWidth: '90%', backgroundColor: `${bgColor}`, paddingLeft: "30px"}}>
+          <Navbar />
+            <Route exact path='/' render={(props) => <Home handleBgColor={handleBgColor}/>} />
+            <Route exact path='/about' render={(props) => <About handleBgColor={handleBgColor}/>} />
+            <Route exact path='/books' render={(props) => <Books handleBgColor={handleBgColor}/>}  />
+            <Route exact path='/contact' render={(props) => <Contact handleBgColor={handleBgColor}/>}  />
         </main>
-        <section style={{width: '10%', height: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', alignItems: 'flex-end', backgroundColor: `${bgColor}` }}>
-          <i className="fab fa-instagram fa-3x" style={{width: '100%'}}></i>
-          <i className="fab fa-twitter fa-3x" style={{width: '100%'}}></i>
-          <i className="fab fa-twitch fa-3x" style={{width: '100%', paddingBottom: '100px'}}></i>
+        <section style={{minWidth: '10%', minHeight: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', alignItems: 'flex-end', backgroundColor: `${bgColor}` }}>
+          <a href="http://www.instagram.com/evlafare" target="_blank"><i className="fab fa-instagram fa-3x" style={{width: '100%', textDecoration: "none", color: 'black',}}></i></a>
+          <a href="http://www.twitter.com/evlafare" target="_blank"><i className="fab fa-twitter fa-3x" style={{width: '100%', textDecoration: "none", color: 'black',}}></i></a>
+          <a href="http://www.twitch.tv/evlafare" target="_blank"><i className="fab fa-twitch fa-3x" style={{width: '100%', textDecoration: "none", color: 'black', paddingBottom: '50px'}}></i></a>
         </section>
       </Fragment>)
       : (<video width="100%" height="100%" muted autoPlay>
