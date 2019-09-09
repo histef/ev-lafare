@@ -6,8 +6,7 @@ const navbarStyle= {
   textDecoration: 'none',
   color: 'black',
   fontFamily: 'Rock Salt',
-  fontSize: '1rem',
-  position: 'fixed',
+  fontSize: '1rem'
 }
 
 const activeStyle = {
@@ -18,9 +17,9 @@ const activeStyle = {
 function Navbar() {
   return (
     <nav className="nav">
-      <ul style={{display: 'flex', paddingLeft: '0', width: '55%', justifyContent: 'space-between', listStyleType: 'none', fontWeight: 'bold', color: 'black'}}>
+      <ul style={{zIndex: '2', position: 'fixed', display: 'flex', width: '55%', justifyContent: 'space-between', listStyleType: 'none', fontWeight: 'bold', color: 'black'}}>
         <li><NavLink to='/' exact activeStyle={activeStyle} style={navbarStyle}>home</NavLink></li>
-        <li><NavLink to='/about' activeStyle={activeStyle} style={navbarStyle} >about</NavLink></li>
+        <li><NavLink to='/about' activeStyle={activeStyle} style={navbarStyle}>about</NavLink></li>
         <li><NavLink to='/books' activeStyle={activeStyle} style={navbarStyle}>books</NavLink></li>
         <li><NavLink to='/contact' activeStyle={activeStyle} style={navbarStyle}>contact</NavLink></li>
       </ul>

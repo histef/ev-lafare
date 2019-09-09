@@ -5,10 +5,14 @@ import React, {useEffect} from 'react';
     props.handleBgColor('#85b8cc')
   },[])
 
+  document.body.style.backgroundColor = "#85b8cc";
+
   return (
-    <div className="about" style={{backgroundColor: '#85b8cc', height: '100vh', display: 'flex'}}>
-      <h1 style={{width: '30%', fontSize: '4rem', letterSpacing: ".4rem"}}>BOOKS</h1>
-      <p style={{width: '60%', justifySelf: 'center', alignSelf: 'center', textAlign: 'center'}}>Coming Soon</p>
+    <div className="Books" style={{height: '100vh'}}>
+      <h1 style={{width: '30%', paddingLeft: '30px', fontSize: '4rem', letterSpacing: ".4rem"}}>BOOKS</h1>
+      <div style={{position: 'absolute', top: '45%', left: '45%'}}>
+      <p>Coming Soon...</p>
+      </div>
     </div>
   );
 }
