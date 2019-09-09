@@ -2,7 +2,7 @@
   "name": "ev-lafare",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://histef.github.io/ev-lafare/",
+  "homepage": "https://histef.github.io/ev-lafare",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "react": "^16.9.0",
@@ -16,7 +16,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy:": "ghpages -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
