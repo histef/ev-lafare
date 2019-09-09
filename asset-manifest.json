@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/ev-lafare/static/css/main.2931053c.chunk.css",
+    "main.js": "/ev-lafare/static/js/main.fdff7e8e.chunk.js",
+    "main.js.map": "/ev-lafare/static/js/main.fdff7e8e.chunk.js.map",
+    "runtime~main.js": "/ev-lafare/static/js/runtime~main.3f29c2c7.js",
+    "runtime~main.js.map": "/ev-lafare/static/js/runtime~main.3f29c2c7.js.map",
+    "static/js/2.78afe261.chunk.js": "/ev-lafare/static/js/2.78afe261.chunk.js",
+    "static/js/2.78afe261.chunk.js.map": "/ev-lafare/static/js/2.78afe261.chunk.js.map",
+    "index.html": "/ev-lafare/index.html",
+    "precache-manifest.f07449fb1b756f019f35c56d1788ec1b.js": "/ev-lafare/precache-manifest.f07449fb1b756f019f35c56d1788ec1b.js",
+    "service-worker.js": "/ev-lafare/service-worker.js",
+    "static/css/main.2931053c.chunk.css.map": "/ev-lafare/static/css/main.2931053c.chunk.css.map",
+    "static/media/EVLF_animation_2D.mp4": "/ev-lafare/static/media/EVLF_animation_2D.1762df56.mp4",
+    "static/media/Ev_aboutpic1_500px.jpg": "/ev-lafare/static/media/Ev_aboutpic1_500px.9ab2aa0a.jpg"
+  }
+}
