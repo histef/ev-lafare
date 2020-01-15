@@ -2,7 +2,7 @@
   "name": "ev-lafare",
   "version": "0.1.0",
   "private": true,
-  "homepage": "evlafare.com",
+  "homepage": "https://histef.github.io/ev-lafare",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "react": "^16.9.0",
