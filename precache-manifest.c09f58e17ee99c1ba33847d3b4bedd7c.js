@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3926ae1aba9c8beb7bb719e1ba2c85ca",
+    "revision": "c407a3011b81b637a726715eb27c8c77",
     "url": "/ev-lafare/index.html"
   },
   {
-    "revision": "6922e5b9fb07c956741a",
+    "revision": "ff3141e6cd55537a6288",
     "url": "/ev-lafare/static/css/main.2931053c.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ev-lafare/static/js/2.b2a40466.chunk.js"
   },
   {
-    "revision": "6922e5b9fb07c956741a",
-    "url": "/ev-lafare/static/js/main.c4517fa6.chunk.js"
+    "revision": "ff3141e6cd55537a6288",
+    "url": "/ev-lafare/static/js/main.b9146473.chunk.js"
   },
   {
     "revision": "7e4fbed42d335b776a70",
