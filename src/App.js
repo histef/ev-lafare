@@ -33,8 +33,8 @@ function App() {
             <Route exact path='/contact' render={(props) => <Contact handleBgColor={handleBgColor}/>}  />
         </main>
         <section style={{width: '10%', position: 'fixed', right: '0px', bottom: '20px', backgroundColor: `${bgColor}`}}>
-          <a href="http://www.instagram.com/evlafare" target="_blank"><i className="fab fa-instagram fa-3x" style={{width: '100%', textDecoration: "none", color: 'black'}}></i></a>
-          <a href="https://www.youtube.com/channel/UCs0ZklNQ0LsoeVCoD2PzFAQ" target="_blank"><i class="fab fa-youtube" style={{width: '100%', textDecoration: "none", color: 'black'}}></i></a>          
+          <a href="https://www.youtube.com/channel/UCs0ZklNQ0LsoeVCoD2PzFAQ" target="_blank"><i class="fab fa-youtube  fa-3x" style={{width: '100%', textDecoration: "none", color: 'black'}}></i></a>
+          <a href="http://www.instagram.com/evlafare" target="_blank"><i className="fab fa-instagram fa-3x" style={{width: '100%', textDecoration: "none", color: 'black'}}></i></a>      
           <a href="http://www.twitter.com/evlafare" target="_blank"><i className="fab fa-twitter fa-3x" style={{width: '100%', textDecoration: "none", color: 'black'}}></i></a>
           <a href="http://www.twitch.tv/evlafare" target="_blank"><i className="fab fa-twitch fa-3x" style={{width: '100%', textDecoration: "none", color: 'black'}}></i></a>
         </section>
